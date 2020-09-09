@@ -1,0 +1,109 @@
+{
+  "id": "5e6dd2a3-5747-4941-9776-50da508ea1a8",
+  "name": "DunQA",
+  "values": [
+    {
+      "key": "waspApiUrl",
+      "value": "https://waspapi.dunqa.io",
+      "enabled": true
+    },
+    {
+      "key": "waspApiKey",
+      "value": "gVBiZPuNX6a6LY0alkznT4JvcnEpGWJL5eyksWAx",
+      "enabled": true
+    },
+    {
+      "key": "fleetCapacityUrl",
+      "value": "https://capacitybrokerage.dunqa.io/api/v1",
+      "enabled": true
+    },
+    {
+      "key": "aspsApiKey",
+      "value": "dzVk8HZH6c5dQIeWUdYuSiV3ZnYlTt342dNxhEa6",
+      "enabled": true
+    },
+    {
+      "key": "aspsApiUrl",
+      "value": "https://asps.dunqa.io",
+      "enabled": true
+    },
+    {
+      "key": "REApiUrl",
+      "value": "https://rules-engine.dunqa.io",
+      "enabled": true
+    },
+    {
+      "key": "REAuthToken",
+      "value": "WASP-API-QA",
+      "enabled": true
+    },
+    {
+      "key": "SupplierId",
+      "value": "1124",
+      "enabled": true
+    },
+    {
+      "key": "waspAuthUrl",
+      "value": "https://waspauth.dunqa.io",
+      "enabled": true
+    },
+    {
+      "key": "supplierApiBaseUrl",
+      "value": "https://supplier.dunqa.io",
+      "enabled": true
+    },
+    {
+      "key": "waspAuthBaseUrl",
+      "value": "https://waspauth.dunqa.io",
+      "enabled": true
+    },
+    {
+      "key": "auth0Domain",
+      "value": "https://dunelm-third-party-pre-prod.eu.auth0.com/oauth/token",
+      "enabled": true
+    },
+    {
+      "key": "clientId",
+      "value": "Psmf8PnEWN7JmZ1hTJfbmCaE4DYACb05",
+      "enabled": true
+    },
+    {
+      "key": "clientSecret",
+      "value": "h9BN8Lhbt9PK_3r7Zwc_gGxZGN3iJvpiN95eAErfMUpeIHBZqdmnHpwj9izqmgNH",
+      "enabled": true
+    },
+    {
+      "key": "audience",
+      "value": "https://wasp-auth",
+      "enabled": true
+    },
+    {
+      "key": "accessToken",
+      "value": "",
+      "enabled": true
+    },
+    {
+      "key": "carrierIntegrationBaseUrl",
+      "value": "https://carrier-integration.dunqa.io",
+      "enabled": true
+    },
+    {
+      "key": "consolidationBaseUrl",
+      "value": "https://consolidation-service.dunqa.io",
+      "enabled": true
+    },
+    {
+      "key": "consolidationApiKey",
+      "value": "yVTh7iFjQvaSjiF50jmmd7w95PxaO2t4aw126eOS",
+      "enabled": true
+    },
+    {
+      "key": "carrierIntegrationApiKey",
+      "value": "CSKx8x7JrF68Zfmc8546wahRWTsWUBLq2TBhlqzb",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "2020-08-25T13:48:47.298Z",
+  "_postman_exported_using": "Postman/7.31.0"
+}
