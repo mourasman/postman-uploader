@@ -1,0 +1,37 @@
+{
+  "name": "postman-uploader",
+  "version": "1.1.2",
+  "description": "A CLI to upload Postman Collections and Postman Environments to Postman Workspaces",
+  "bin": "bin/cli.js",
+  "scripts": {
+    "generatePostmanApiClient": "npx @openapitools/openapi-generator-cli@cli-4.3.1 generate -i docs/postman_api.yaml -g javascript -o ./out/postman-api-client/ -DusePromises=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mourasman/postman-uploader.git"
+  },
+  "keywords": [
+    "postman"
+  ],
+  "author": "Ricardo Moura <mail@ricardomoura.eu>",
+  "license": "ISC",
+  "homepage": "https://github.com/mourasman/postman-uploader",
+  "dependencies": {
+    "commander": "^6.1.0",
+    "postman-api-client": "^1.0.0",
+    "yaml": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "prettier": "^2.1.1"
+  }
+}
